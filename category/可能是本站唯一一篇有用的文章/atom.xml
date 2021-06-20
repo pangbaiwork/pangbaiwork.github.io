@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://pangbai.work</id>
+    <title>𝕺𝖚𝖗 𝕷𝖎𝖋𝖊 • Posts by &#34;可能是本站唯一一篇有用的文章&#34; category</title>
+    <link href="https://pangbai.work" />
+    <updated>2021-03-20T04:00:25.000Z</updated>
+    <category term="html前端" />
+    <category term="Minecraft" />
+    <category term="服务器" />
+    <category term="xposed" />
+    <category term="xp模块" />
+    <category term="太极" />
+    <category term="icebox" />
+    <category term="手机软件分享" />
+    <category term="线程下载器" />
+    <category term="ADB" />
+    <category term="Android" />
+    <entry>
+        <id>https://pangbai.work/2021/03/20/html/hhh/</id>
+        <title>如何在一分钟内黑掉任何网站</title>
+        <link rel="alternate" href="https://pangbai.work/2021/03/20/html/hhh/"/>
+        <content type="html">&lt;h3 id=&#34;零基础教学&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#零基础教学&#34;&gt;#&lt;/a&gt;  &lt;code&gt;零基础教学&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;即使什么都不会，也只需要你的耐心&lt;/p&gt;
+&lt;h1 id=&#34;免责申明&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#免责申明&#34;&gt;#&lt;/a&gt;  &lt;code&gt;免责申明&lt;/code&gt;&lt;/h1&gt;
+&lt;p&gt;本篇文章只针对计算机技术分享，请遵守中华人民共和国网络安全法第十二条，如有越界，后果自负。&lt;br /&gt;
+&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;img data-src=&#34;https://tva3.sinaimg.cn/large/6833939bly1giclg5ms2rj20zk0m8u0x.jpg&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
+ 黑客教程：  一些黑客惯用手段 包学包会&lt;br /&gt;
+特别提醒：百度是黑不了的，不要试&lt;/p&gt;
+&lt;div class=&#34;note warning&#34;&gt;
+&lt;p&gt;本篇教程较长且十分详细，请耐心阅读&lt;br /&gt;
+黑色部分字体已被加密，点击可见&lt;/p&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;教程一如何黑网站&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#教程一如何黑网站&#34;&gt;#&lt;/a&gt; 教程一：如何黑网站&lt;/h1&gt;
+&lt;h2 id=&#34;方法一&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#方法一&#34;&gt;#&lt;/a&gt; 方法一&lt;/h2&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_0&#34; checked=&#34;true&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_0&#34;&gt; 第一步：&lt;br /&gt;
+打开 IE5.5 以上版本，或 FireFox1.5 以上版本，并且输入目标网址，打开需要被黑的网站。点击 F12，打开开发者工具。&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_1&#34; checked=&#34;true&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_1&#34;&gt; 第二步：&lt;br /&gt;
+&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;取一定浓度黑色墨汁少许，口含，将嘴对准你的屏幕正中，喷！！！&lt;/span&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_2&#34; checked=&#34;true&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_2&#34;&gt; 第三步：&lt;br /&gt;
+&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;抬眼看：黑了！！！它黑了！！！&lt;/span&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;方法二&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#方法二&#34;&gt;#&lt;/a&gt; 方法二&lt;/h2&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_3&#34; checked=&#34;true&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_3&#34;&gt; 第一步：&lt;br /&gt;
+打开 IE5.5 以上版本，或 FireFox1.5 以上版本，并且输入目标网址，打开需要被黑的论坛。&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_4&#34; checked=&#34;true&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_4&#34;&gt; 第二步：&lt;br /&gt;
+&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;找到显示器开关，伸出食指，将食指对准显示器开关按钮，按！！！&lt;/span&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_5&#34; checked=&#34;true&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_5&#34;&gt; 第三步：&lt;br /&gt;
+&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;抬眼看：黑了！！！它黑了！！&lt;/span&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;方法三&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#方法三&#34;&gt;#&lt;/a&gt; 方法三&lt;/h2&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_6&#34; checked=&#34;true&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_6&#34;&gt; 第一步：&lt;br /&gt;
+打开 IE5.5 以上版本，或 FireFox1.5 以上版本，并且输入目标网址，打开需要被黑的论坛。&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_7&#34; checked=&#34;true&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_7&#34;&gt; 第二步：&lt;br /&gt;
+找到机箱电源插座，伸出右手，将右手对准插座，拔！！！&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_8&#34; checked=&#34;true&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_8&#34;&gt; 第三步：&lt;br /&gt;
+抬眼看：黑了！！！它黑了！！！&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;方法四&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#方法四&#34;&gt;#&lt;/a&gt; 方法四&lt;/h2&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_9&#34; checked=&#34;true&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_9&#34;&gt; 第一步：&lt;br /&gt;
+打开 IE5.5 以上版本，或 FireFox1.5 以上版本，并且输入目标网址，打开需要被黑的论坛。&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_10&#34; checked=&#34;true&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_10&#34;&gt; 第二步：&lt;br /&gt;
+取一定大小砖块或金属等硬物，对准你的屏幕正中，扔！！！&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_11&#34; checked=&#34;true&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_11&#34;&gt; 第三步：&lt;br /&gt;
+抬眼看：黑了！！！它黑了！！！&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;教程二如何黑别人电脑&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#教程二如何黑别人电脑&#34;&gt;#&lt;/a&gt; 教程二：如何黑别人电脑#&lt;/h1&gt;
+&lt;p&gt;步骤：&lt;/p&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_12&#34; checked=&#34;true&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_12&#34;&gt; &lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;1. 买一桶黑油漆和一把刷子&lt;/span&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_13&#34; checked=&#34;true&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_13&#34;&gt; &lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;2. 到别人家（走着去或坐车都可以&lt;/span&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_14&#34; checked=&#34;true&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_14&#34;&gt; &lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;3. 把他家的电脑用刷子涂抹上黑油漆&lt;/span&gt;&lt;br /&gt;
+！！好了！这样你就成功地黑了别人的电脑了！恭喜你！&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;教程三如何在别人电脑里留下后门和木马&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#教程三如何在别人电脑里留下后门和木马&#34;&gt;#&lt;/a&gt; 教程三：如何在别人电脑里留下后门和木马&lt;/h1&gt;
+&lt;p&gt;1. 到玩具店买一个木马，再到五金店买一个钻孔机&lt;br /&gt;
+ 2. 到别人家（走着去或坐车去都可以）&lt;br /&gt;
+3. 用钻孔机在他家电脑的机箱后面钻一个洞，把木马塞进去。&lt;/p&gt;
+&lt;h1 id=&#34;教程四如何提升自己在对方网站里的权限&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#教程四如何提升自己在对方网站里的权限&#34;&gt;#&lt;/a&gt; 教程四：如何提升自己在对方网站里的权限&lt;/h1&gt;
+&lt;p&gt;步骤：&lt;br /&gt;
+1. 发很多很多的贴子&lt;br /&gt;
+ 2. 给这个网站捐一些钱&lt;br /&gt;
+ 3. 申请做版主&lt;br /&gt;
+好了！你终于提升了自己的权限了！恭喜你！&lt;/p&gt;
+&lt;h1 id=&#34;教程五如何得到别人的各种密码&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#教程五如何得到别人的各种密码&#34;&gt;#&lt;/a&gt; 教程五：如何得到别人的各种密码&lt;/h1&gt;
+&lt;p&gt;步骤：&lt;br /&gt;
+1. 静态跟踪法：&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;去一个网吧，打扮成一棵树，站在上网者的身后偷看&lt;/span&gt;&lt;br /&gt;
+ 2. 动态跟踪法：&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;到朋友家做客，站在他们的家人身后偷看（要求：记忆力和眼力必须好，严重反对豆眼和白痴学习此功法）&lt;/span&gt;&lt;/p&gt;
+&lt;h1 id=&#34;教程六如何以穷举法破解别人邮箱密码&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#教程六如何以穷举法破解别人邮箱密码&#34;&gt;#&lt;/a&gt; 教程六：如何以穷举法破解别人邮箱密码&lt;/h1&gt;
+&lt;p&gt;步骤：&lt;br /&gt;
+1. 随便输入一个邮箱密码&lt;br /&gt;
+ 2. 如不行，再输入第二个试试&lt;br /&gt;
+ 3. 如不行，再输入第三个试试&lt;br /&gt;
+ 4. 如不行，再输入第四个试试……&lt;br /&gt;
+（耗费时间较多，强烈建议老年朋友勿练此功法）&lt;/p&gt;
+&lt;h1 id=&#34;教程七如何令对方网络瘫痪&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#教程七如何令对方网络瘫痪&#34;&gt;#&lt;/a&gt; 教程七：如何令对方网络瘫痪&lt;/h1&gt;
+&lt;pre&gt;&lt;code&gt;步骤： 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_15&#34; checked=&#34;true&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_15&#34;&gt; 1. 把对方网站的网管和站长等所有人约到一个死胡同吃饭。&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_16&#34; checked=&#34;true&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_16&#34;&gt; 2. 让你所有的弟兄都赶到那个死胡同，别忘了带上铁锤、木棍。&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_17&#34; checked=&#34;true&#34; disabled=&#34;true&#34; /&gt;&lt;label for=&#34;cbx_17&#34;&gt; 3. 我估计见面以后对方的网站不是瘫痪，就是半瘫痪了。&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;更好地学习黑客技术&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#更好地学习黑客技术&#34;&gt;#&lt;/a&gt; 更好地学习黑客技术&lt;/h1&gt;
+&lt;p&gt;&lt;code&gt;有不明白的细节可以拨打110查询&lt;/code&gt;&lt;/p&gt;
+&lt;h1 id=&#34;结语&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#结语&#34;&gt;#&lt;/a&gt; 结语&lt;/h1&gt;
+&lt;p&gt;本篇文章是大概 18 年的时候在某些 QQ 群里里发现的。&lt;br /&gt;
+虽然并不是原创，但也修改了一部分。&lt;br /&gt;
+允许转载 转载请附上本文链接&lt;/p&gt;
+</content>
+        <updated>2021-03-20T04:00:25.000Z</updated>
+    </entry>
+</feed>

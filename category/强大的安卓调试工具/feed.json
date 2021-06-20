@@ -1,0 +1,18 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "𝕺𝖚𝖗 𝕷𝖎𝖋𝖊 • All posts by \"强大的安卓调试工具\" category",
+    "description": "",
+    "home_page_url": "https://pangbai.work",
+    "items": [
+        {
+            "id": "https://pangbai.work/2021/01/16/IT/adb/",
+            "url": "https://pangbai.work/2021/01/16/IT/adb/",
+            "title": "ADB带来的春天",
+            "date_published": "2021-01-16T05:39:19.000Z",
+            "content_html": "<p>ADB 全称 Android Debug Bridgde<br />\n 是安卓手机自带的供开发者使用的调试工具。这个工具可以直接操作管理 android 模拟器或者真实的 andriod 设备<br />\n<span id=\"more\"></span><br />\nadb 的主要功能如下</p>\n<ul>\n<li>在 Android 设备上运行 Shell (命令行)</li>\n<li>管理模拟器或设备的端口映射</li>\n<li>在计算机和设备之间上传 / 下载文件</li>\n<li>将电脑上的本地 APK 软件安装至 Android 模拟器或设备上</li>\n</ul>\n<p>有人说 adb 只是用来调试的，对于一般人来说没有太大用处，<br />\n但其实并非如此，在安卓手机中它的权限仅次于 'Root'<br />\n 以至于在安卓中，每一次重启过后，大多 adb 的功能都会失效 (避免手机不稳定)。<br />\n通过 adb 执行 shell 能使手机获得很多功能，这也给了手机应用开发者搞事情的空间，<br />\n通过获得 adb 权限<br />\n icebox，权限狗，黑域，可以通过 adb 权限对手机应用进行管理 (这里说的手机应用包括系统应用)，控制他们的自启行为，和一些流氓权限。<br />\n同时 adb 可以触及到一些手机设置里没有的选项，如安卓 8 的自由窗口模式，一些软件设备管理员权限的激活。<br />\n感觉手机更像是自己的了。</p>\n",
+            "tags": [
+                "ADB"
+            ]
+        }
+    ]
+}

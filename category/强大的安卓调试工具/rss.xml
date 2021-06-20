@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>𝕺𝖚𝖗 𝕷𝖎𝖋𝖊 • Posts by &#34;强大的安卓调试工具&#34; category</title>
+        <link>https://pangbai.work</link>
+        <description></description>
+        <language>zh_CN</language>
+        <pubDate>Sat, 16 Jan 2021 13:39:19 +0800</pubDate>
+        <lastBuildDate>Sat, 16 Jan 2021 13:39:19 +0800</lastBuildDate>
+        <category>html前端</category>
+        <category>Minecraft</category>
+        <category>服务器</category>
+        <category>xposed</category>
+        <category>xp模块</category>
+        <category>太极</category>
+        <category>icebox</category>
+        <category>手机软件分享</category>
+        <category>线程下载器</category>
+        <category>ADB</category>
+        <category>Android</category>
+        <item>
+            <guid isPermalink="true">https://pangbai.work/2021/01/16/IT/adb/</guid>
+            <title>ADB带来的春天</title>
+            <link>https://pangbai.work/2021/01/16/IT/adb/</link>
+            <category>ADB</category>
+            <pubDate>Sat, 16 Jan 2021 13:39:19 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;ADB 全称 Android Debug Bridgde&lt;br /&gt;
+ 是安卓手机自带的供开发者使用的调试工具。这个工具可以直接操作管理 android 模拟器或者真实的 andriod 设备&lt;br /&gt;
+&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;&lt;br /&gt;
+adb 的主要功能如下&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在 Android 设备上运行 Shell (命令行)&lt;/li&gt;
+&lt;li&gt;管理模拟器或设备的端口映射&lt;/li&gt;
+&lt;li&gt;在计算机和设备之间上传 / 下载文件&lt;/li&gt;
+&lt;li&gt;将电脑上的本地 APK 软件安装至 Android 模拟器或设备上&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;有人说 adb 只是用来调试的，对于一般人来说没有太大用处，&lt;br /&gt;
+但其实并非如此，在安卓手机中它的权限仅次于 &#39;Root&#39;&lt;br /&gt;
+ 以至于在安卓中，每一次重启过后，大多 adb 的功能都会失效 (避免手机不稳定)。&lt;br /&gt;
+通过 adb 执行 shell 能使手机获得很多功能，这也给了手机应用开发者搞事情的空间，&lt;br /&gt;
+通过获得 adb 权限&lt;br /&gt;
+ icebox，权限狗，黑域，可以通过 adb 权限对手机应用进行管理 (这里说的手机应用包括系统应用)，控制他们的自启行为，和一些流氓权限。&lt;br /&gt;
+同时 adb 可以触及到一些手机设置里没有的选项，如安卓 8 的自由窗口模式，一些软件设备管理员权限的激活。&lt;br /&gt;
+感觉手机更像是自己的了。&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>
