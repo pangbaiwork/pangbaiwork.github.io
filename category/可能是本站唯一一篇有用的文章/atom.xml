@@ -1,24 +1,24 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pangbai.work</id>
-    <title>𝕺𝖚𝖗 𝕷𝖎𝖋𝖊 • Posts by &#34;可能是本站唯一一篇有用的文章&#34; category</title>
+    <title>𝕺𝖚𝖗 𝕷𝖎𝖋𝖊Z • Posts by &#34;可能是本站唯一一篇有用的文章&#34; category</title>
     <link href="https://pangbai.work" />
     <updated>2021-03-20T04:00:25.000Z</updated>
     <category term="ADB" />
     <category term="Android" />
     <category term="html前端" />
+    <category term="Minecraft" />
+    <category term="服务器" />
     <category term="xposed" />
     <category term="xp模块" />
     <category term="太极" />
-    <category term="Minecraft" />
-    <category term="服务器" />
     <category term="icebox" />
     <category term="手机软件分享" />
     <category term="线程下载器" />
     <entry>
-        <id>https://pangbai.work/2021/03/20/html/hhh/</id>
+        <id>https://pangbai.work/html/hhh/</id>
         <title>如何在一分钟内黑掉任何网站</title>
-        <link rel="alternate" href="https://pangbai.work/2021/03/20/html/hhh/"/>
+        <link rel="alternate" href="https://pangbai.work/html/hhh/"/>
         <content type="html">&lt;h3 id=&#34;零基础教学&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#零基础教学&#34;&gt;#&lt;/a&gt;  &lt;code&gt;零基础教学&lt;/code&gt;&lt;/h3&gt;
 &lt;p&gt;即使什么都不会，也只需要你的耐心&lt;/p&gt;
 &lt;h1 id=&#34;免责申明&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#免责申明&#34;&gt;#&lt;/a&gt;  &lt;code&gt;免责申明&lt;/code&gt;&lt;/h1&gt;

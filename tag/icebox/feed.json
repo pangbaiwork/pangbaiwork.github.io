@@ -1,12 +1,12 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "𝕺𝖚𝖗 𝕷𝖎𝖋𝖊 • All posts by \"icebox\" tag",
-    "description": "",
+    "title": "𝕺𝖚𝖗 𝕷𝖎𝖋𝖊Z • All posts by \"icebox\" tag",
+    "description": "记录生活 | 为众人抱薪者,不可使其扼于风雪",
     "home_page_url": "https://pangbai.work",
     "items": [
         {
-            "id": "https://pangbai.work/2021/03/20/share/icebox/",
-            "url": "https://pangbai.work/2021/03/20/share/icebox/",
+            "id": "https://pangbai.work/share/icebox/",
+            "url": "https://pangbai.work/share/icebox/",
             "title": "冰箱iceBox|一个让人叹为观止的软件",
             "date_published": "2021-03-20T04:00:27.000Z",
             "content_html": "<h1 id=\"冰箱\"><a class=\"anchor\" href=\"#冰箱\">#</a>  <code>冰箱</code></h1>\n<ul>\n<li>在着个国内流氓软件繁多的世界，你遇到过许多的不如愿。<br />\n在安卓 6 以后 bl 锁在许多机型中不可触及<br />\n你花高价买了手机后，你拥有的不过是手机的使用权，其实根本无法完全控制你的手机。作为一个普通人，你即使花再多的钱买手机也不过是获得一小部分的优势而已。因为软件是别人做的，你的手机再贵也不可能躲掉拼多多，淘宝烦人的推送，不可能阻止那些毫无创意且幼稚的广告，不可能逃掉软件随意意弹出的页面，不可能避免那些全家桶应用自启。有人说卸掉软件就行了，可是那些软件你卸得掉吗？<br />\n <code>你的手机其实根本就不是你的</code> <br />\n手机只是你被商人压榨的工具。<br />\n害怕拆机短接，bl 解锁麻烦，有些手机上不可能，每个商人都想要利益最大化。<br />\n不少技术大佬去买谷歌的 <code>Nexus</code>  或者 <code>一加</code> ， <code>小米</code> <br />\n原因是他们能给的是一部手机，而不是只是使用权。<br />\n不想寻求权利的普通用户也就这样吧，聪明人知道去维护自己应有的权利。<br />\n在巨大的利益链之下有着正义的使者。<br />\n冰箱就是其中之一。<br />\n <code>冰箱是一个专注于冻结应用的安卓软件，我能毫不犹豫的说它是下载量第一的冻结应用软件</code></li>\n</ul>\n<h1 id=\"特点\"><a class=\"anchor\" href=\"#特点\">#</a> 特点</h1>\n<p>为什么冰箱如此受欢迎</p>\n<ul class=\"task-list\">\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"cbx_0\" checked=\"true\" disabled=\"true\" /><label for=\"cbx_0\"> 精心设计的 MD 风格软件</label></li>\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"cbx_1\" checked=\"true\" disabled=\"true\" /><label for=\"cbx_1\"> 支持多重授权方式 Root 设备管理员 adb</label></li>\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"cbx_2\" checked=\"true\" disabled=\"true\" /><label for=\"cbx_2\"> 提供冻结应用的管理，自动冻结等</label></li>\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"cbx_3\" checked=\"true\" disabled=\"true\" /><label for=\"cbx_3\"> 开发者的十分努力，为用户提供了 web adb 的快捷授权，并同黑域，炼妖壶等开发者进行交流。</label></li>\n</ul>\n<p>在特点之中 web adb 最为闪亮，webUSB 这项谷歌还在实验阶段的技术的使用，让 web adb 成为可能，adb 变得更加便捷。<br />\n最重要的是让你在没有电脑的情况下激活授权，而需要的只是一根 otg 和另一部手机。</p>\n",

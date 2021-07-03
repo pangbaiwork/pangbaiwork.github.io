@@ -1,27 +1,27 @@
 <?xml version="1.0"?>
 <rss version="2.0">
     <channel>
-        <title>𝕺𝖚𝖗 𝕷𝖎𝖋𝖊</title>
+        <title>𝕺𝖚𝖗 𝕷𝖎𝖋𝖊Z</title>
         <link>https://pangbai.work</link>
-        <description></description>
+        <description>记录生活 | 为众人抱薪者,不可使其扼于风雪</description>
         <language>zh_CN</language>
         <pubDate>Sat, 19 Jun 2021 13:39:19 +0800</pubDate>
         <lastBuildDate>Sat, 19 Jun 2021 13:39:19 +0800</lastBuildDate>
         <category>ADB</category>
         <category>Android</category>
         <category>html前端</category>
+        <category>Minecraft</category>
+        <category>服务器</category>
         <category>xposed</category>
         <category>xp模块</category>
         <category>太极</category>
-        <category>Minecraft</category>
-        <category>服务器</category>
         <category>icebox</category>
         <category>手机软件分享</category>
         <category>线程下载器</category>
         <item>
-            <guid isPermalink="true">https://pangbai.work/2021/06/19/IT/dialog/</guid>
+            <guid isPermalink="true">https://pangbai.work/IT/dialog/</guid>
             <title>Android底部简约风格对话框</title>
-            <link>https://pangbai.work/2021/06/19/IT/dialog/</link>
+            <link>https://pangbai.work/IT/dialog/</link>
             <category>Android</category>
             <pubDate>Sat, 19 Jun 2021 13:39:19 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;在开发的过程中，纠结于对话框的制作，各种博客上 Android 对话框的制作教程很多，在此记录下自己制作对话框详细的过程。&lt;br /&gt;
@@ -47,9 +47,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://pangbai.work/2021/05/21/link/termux-install-linux/</guid>
+            <guid isPermalink="true">https://pangbai.work/link/termux-install-linux/</guid>
             <title>在手机上快速搭建Linux</title>
-            <link>https://pangbai.work/2021/05/21/link/termux-install-linux/</link>
+            <link>https://pangbai.work/link/termux-install-linux/</link>
             <pubDate>Fri, 21 May 2021 23:30:04 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;这篇文章是国光大佬写的，制作了一键安装脚本&lt;br /&gt;
 并且将镜像放在了码云，在国内安装速度飞快&lt;br /&gt;
@@ -57,9 +57,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://pangbai.work/2021/03/20/share/icebox/</guid>
+            <guid isPermalink="true">https://pangbai.work/share/icebox/</guid>
             <title>冰箱iceBox|一个让人叹为观止的软件</title>
-            <link>https://pangbai.work/2021/03/20/share/icebox/</link>
+            <link>https://pangbai.work/share/icebox/</link>
             <category>icebox</category>
             <pubDate>Sat, 20 Mar 2021 12:00:27 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;冰箱&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#冰箱&#34;&gt;#&lt;/a&gt;  &lt;code&gt;冰箱&lt;/code&gt;&lt;/h1&gt;
@@ -90,9 +90,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://pangbai.work/2021/03/20/html/hhh/</guid>
+            <guid isPermalink="true">https://pangbai.work/html/hhh/</guid>
             <title>如何在一分钟内黑掉任何网站</title>
-            <link>https://pangbai.work/2021/03/20/html/hhh/</link>
+            <link>https://pangbai.work/html/hhh/</link>
             <pubDate>Sat, 20 Mar 2021 12:00:25 +0800</pubDate>
             <description><![CDATA[ &lt;h3 id=&#34;零基础教学&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#零基础教学&#34;&gt;#&lt;/a&gt;  &lt;code&gt;零基础教学&lt;/code&gt;&lt;/h3&gt;
 &lt;p&gt;即使什么都不会，也只需要你的耐心&lt;/p&gt;
@@ -189,9 +189,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://pangbai.work/2021/03/13/html/jstxt/</guid>
+            <guid isPermalink="true">https://pangbai.work/html/jstxt/</guid>
             <title>利用JavaScript实现循环打字效果</title>
-            <link>https://pangbai.work/2021/03/13/html/jstxt/</link>
+            <link>https://pangbai.work/html/jstxt/</link>
             <category>html前端</category>
             <pubDate>Sat, 13 Mar 2021 19:27:55 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;&lt;ins class=&#34;primary&#34;&gt;一个自己制作的 JS 打字效果&lt;/ins&gt;&lt;/p&gt;
@@ -218,9 +218,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://pangbai.work/2021/01/16/IT/adb/</guid>
+            <guid isPermalink="true">https://pangbai.work/IT/adb/</guid>
             <title>ADB带来的春天</title>
-            <link>https://pangbai.work/2021/01/16/IT/adb/</link>
+            <link>https://pangbai.work/IT/adb/</link>
             <category>ADB</category>
             <pubDate>Sat, 16 Jan 2021 13:39:19 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;ADB 全称 Android Debug Bridgde&lt;br /&gt;
@@ -244,9 +244,9 @@ adb 的主要功能如下&lt;/p&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://pangbai.work/2021/01/16/share/idm/</guid>
+            <guid isPermalink="true">https://pangbai.work/share/idm/</guid>
             <title>LDM+线程下载器</title>
-            <link>https://pangbai.work/2021/01/16/share/idm/</link>
+            <link>https://pangbai.work/share/idm/</link>
             <category>手机软件分享</category>
             <category>线程下载器</category>
             <pubDate>Sat, 16 Jan 2021 13:39:19 +0800</pubDate>
@@ -281,9 +281,9 @@ adb 的主要功能如下&lt;/p&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://pangbai.work/2021/01/11/share/CatServer/</guid>
+            <guid isPermalink="true">https://pangbai.work/share/CatServer/</guid>
             <title>1.12.2 | CatServer 可自行添加mod|自配权限小型整合服务端</title>
-            <link>https://pangbai.work/2021/01/11/share/CatServer/</link>
+            <link>https://pangbai.work/share/CatServer/</link>
             <category>Minecraft</category>
             <category>服务器</category>
             <pubDate>Mon, 11 Jan 2021 23:20:00 +0800</pubDate>
@@ -317,9 +317,9 @@ adb 的主要功能如下&lt;/p&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://pangbai.work/2021/01/01/share/RedBag/</guid>
+            <guid isPermalink="true">https://pangbai.work/share/RedBag/</guid>
             <title>抢红包</title>
-            <link>https://pangbai.work/2021/01/01/share/RedBag/</link>
+            <link>https://pangbai.work/share/RedBag/</link>
             <category>xposed</category>
             <category>xp模块</category>
             <category>太极</category>

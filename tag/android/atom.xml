@@ -1,24 +1,24 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pangbai.work</id>
-    <title>𝕺𝖚𝖗 𝕷𝖎𝖋𝖊 • Posts by &#34;android&#34; tag</title>
+    <title>𝕺𝖚𝖗 𝕷𝖎𝖋𝖊Z • Posts by &#34;android&#34; tag</title>
     <link href="https://pangbai.work" />
     <updated>2021-06-19T05:39:19.000Z</updated>
     <category term="ADB" />
     <category term="Android" />
     <category term="html前端" />
+    <category term="Minecraft" />
+    <category term="服务器" />
     <category term="xposed" />
     <category term="xp模块" />
     <category term="太极" />
-    <category term="Minecraft" />
-    <category term="服务器" />
     <category term="icebox" />
     <category term="手机软件分享" />
     <category term="线程下载器" />
     <entry>
-        <id>https://pangbai.work/2021/06/19/IT/dialog/</id>
+        <id>https://pangbai.work/IT/dialog/</id>
         <title>Android底部简约风格对话框</title>
-        <link rel="alternate" href="https://pangbai.work/2021/06/19/IT/dialog/"/>
+        <link rel="alternate" href="https://pangbai.work/IT/dialog/"/>
         <content type="html">&lt;p&gt;在开发的过程中，纠结于对话框的制作，各种博客上 Android 对话框的制作教程很多，在此记录下自己制作对话框详细的过程。&lt;br /&gt;
 &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;&lt;br /&gt;
  在安卓开发中，软件整体 UI 是否赏心悦目决定了用户对这个软件的评价，而对话框是用弹出的控件提醒用户操作的工具，说是 APP 的面子也不过分&lt;br /&gt;

@@ -1,24 +1,24 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pangbai.work</id>
-    <title>𝕺𝖚𝖗 𝕷𝖎𝖋𝖊 • Posts by &#34;使用termux搭建linux&#34; category</title>
+    <title>𝕺𝖚𝖗 𝕷𝖎𝖋𝖊Z • Posts by &#34;使用termux搭建linux&#34; category</title>
     <link href="https://pangbai.work" />
     <updated>2021-05-21T15:30:04.000Z</updated>
     <category term="ADB" />
     <category term="Android" />
     <category term="html前端" />
+    <category term="Minecraft" />
+    <category term="服务器" />
     <category term="xposed" />
     <category term="xp模块" />
     <category term="太极" />
-    <category term="Minecraft" />
-    <category term="服务器" />
     <category term="icebox" />
     <category term="手机软件分享" />
     <category term="线程下载器" />
     <entry>
-        <id>https://pangbai.work/2021/05/21/link/termux-install-linux/</id>
+        <id>https://pangbai.work/link/termux-install-linux/</id>
         <title>在手机上快速搭建Linux</title>
-        <link rel="alternate" href="https://pangbai.work/2021/05/21/link/termux-install-linux/"/>
+        <link rel="alternate" href="https://pangbai.work/link/termux-install-linux/"/>
         <content type="html">&lt;p&gt;这篇文章是国光大佬写的，制作了一键安装脚本&lt;br /&gt;
 并且将镜像放在了码云，在国内安装速度飞快&lt;br /&gt;
 在这里分享该文章，永远支持国光！！！&lt;/p&gt;

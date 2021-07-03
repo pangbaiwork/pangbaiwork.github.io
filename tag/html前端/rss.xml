@@ -1,27 +1,27 @@
 <?xml version="1.0"?>
 <rss version="2.0">
     <channel>
-        <title>𝕺𝖚𝖗 𝕷𝖎𝖋𝖊 • Posts by &#34;html前端&#34; tag</title>
+        <title>𝕺𝖚𝖗 𝕷𝖎𝖋𝖊Z • Posts by &#34;html前端&#34; tag</title>
         <link>https://pangbai.work</link>
-        <description></description>
+        <description>记录生活 | 为众人抱薪者,不可使其扼于风雪</description>
         <language>zh_CN</language>
         <pubDate>Sat, 13 Mar 2021 19:27:55 +0800</pubDate>
         <lastBuildDate>Sat, 13 Mar 2021 19:27:55 +0800</lastBuildDate>
         <category>ADB</category>
         <category>Android</category>
         <category>html前端</category>
+        <category>Minecraft</category>
+        <category>服务器</category>
         <category>xposed</category>
         <category>xp模块</category>
         <category>太极</category>
-        <category>Minecraft</category>
-        <category>服务器</category>
         <category>icebox</category>
         <category>手机软件分享</category>
         <category>线程下载器</category>
         <item>
-            <guid isPermalink="true">https://pangbai.work/2021/03/13/html/jstxt/</guid>
+            <guid isPermalink="true">https://pangbai.work/html/jstxt/</guid>
             <title>利用JavaScript实现循环打字效果</title>
-            <link>https://pangbai.work/2021/03/13/html/jstxt/</link>
+            <link>https://pangbai.work/html/jstxt/</link>
             <category>html前端</category>
             <pubDate>Sat, 13 Mar 2021 19:27:55 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;&lt;ins class=&#34;primary&#34;&gt;一个自己制作的 JS 打字效果&lt;/ins&gt;&lt;/p&gt;

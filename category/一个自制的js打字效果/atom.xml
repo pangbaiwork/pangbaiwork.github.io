@@ -1,24 +1,24 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pangbai.work</id>
-    <title>𝕺𝖚𝖗 𝕷𝖎𝖋𝖊 • Posts by &#34;一个自制的js打字效果&#34; category</title>
+    <title>𝕺𝖚𝖗 𝕷𝖎𝖋𝖊Z • Posts by &#34;一个自制的js打字效果&#34; category</title>
     <link href="https://pangbai.work" />
     <updated>2021-03-13T11:27:55.000Z</updated>
     <category term="ADB" />
     <category term="Android" />
     <category term="html前端" />
+    <category term="Minecraft" />
+    <category term="服务器" />
     <category term="xposed" />
     <category term="xp模块" />
     <category term="太极" />
-    <category term="Minecraft" />
-    <category term="服务器" />
     <category term="icebox" />
     <category term="手机软件分享" />
     <category term="线程下载器" />
     <entry>
-        <id>https://pangbai.work/2021/03/13/html/jstxt/</id>
+        <id>https://pangbai.work/html/jstxt/</id>
         <title>利用JavaScript实现循环打字效果</title>
-        <link rel="alternate" href="https://pangbai.work/2021/03/13/html/jstxt/"/>
+        <link rel="alternate" href="https://pangbai.work/html/jstxt/"/>
         <content type="html">&lt;p&gt;&lt;ins class=&#34;primary&#34;&gt;一个自己制作的 JS 打字效果&lt;/ins&gt;&lt;/p&gt;
 &lt;h1 id=&#34;效果&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#效果&#34;&gt;#&lt;/a&gt; 效果&lt;/h1&gt;
 &lt;ul class=&#34;task-list&#34;&gt;

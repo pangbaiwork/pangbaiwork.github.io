@@ -1,24 +1,24 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pangbai.work</id>
-    <title>𝕺𝖚𝖗 𝕷𝖎𝖋𝖊 • Posts by &#34;xposed&#34; tag</title>
+    <title>𝕺𝖚𝖗 𝕷𝖎𝖋𝖊Z • Posts by &#34;xposed&#34; tag</title>
     <link href="https://pangbai.work" />
     <updated>2021-01-01T00:29:00.000Z</updated>
     <category term="ADB" />
     <category term="Android" />
     <category term="html前端" />
+    <category term="Minecraft" />
+    <category term="服务器" />
     <category term="xposed" />
     <category term="xp模块" />
     <category term="太极" />
-    <category term="Minecraft" />
-    <category term="服务器" />
     <category term="icebox" />
     <category term="手机软件分享" />
     <category term="线程下载器" />
     <entry>
-        <id>https://pangbai.work/2021/01/01/share/RedBag/</id>
+        <id>https://pangbai.work/share/RedBag/</id>
         <title>抢红包</title>
-        <link rel="alternate" href="https://pangbai.work/2021/01/01/share/RedBag/"/>
+        <link rel="alternate" href="https://pangbai.work/share/RedBag/"/>
         <content type="html">&lt;p&gt;如何让红包手到擒来？&lt;br /&gt;
 除夕夜手速慢更是会导致你上 &amp;quot;亿&amp;quot; 的损失！&lt;/p&gt;
 &lt;hr /&gt;

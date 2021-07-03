@@ -1,12 +1,12 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "𝕺𝖚𝖗 𝕷𝖎𝖋𝖊 • All posts by \"一个很牛的手机端线程下载器\" category",
-    "description": "",
+    "title": "𝕺𝖚𝖗 𝕷𝖎𝖋𝖊Z • All posts by \"一个很牛的手机端线程下载器\" category",
+    "description": "记录生活 | 为众人抱薪者,不可使其扼于风雪",
     "home_page_url": "https://pangbai.work",
     "items": [
         {
-            "id": "https://pangbai.work/2021/01/16/share/idm/",
-            "url": "https://pangbai.work/2021/01/16/share/idm/",
+            "id": "https://pangbai.work/share/idm/",
+            "url": "https://pangbai.work/share/idm/",
             "title": "LDM+线程下载器",
             "date_published": "2021-01-16T05:39:19.000Z",
             "content_html": "<h4 id=\"idm下载器\"><a class=\"anchor\" href=\"#idm下载器\">#</a> IDM 下载器</h4>\n<p><strong>线程下载器在电脑上是比较出名的，但你有用过手机版的线程下载器吗？<br />\n面对国外网站的文件下载，用龟速来形容也不为过，当你看到 16kb/s 时估计已经对 100 多兆的文件绝望了，此时的 IDM 线程下载器就能拯救你了。  <br />\n此类下载器与迅雷等不同，线程下载器使用多线程下载文件，换句话说，32 个线程在一秒内能为你下载<br />\n 16kb*32 的文件数据，理想情况下速度几乎增大了 32 倍。堪称神器。  <br />\n此外国内<s>某度网盘</s>的下载速度让人绝望，但大于 1G 的文件几乎都存在网盘里，此线程下载器可已搭配 ES 文件管理器 使用，实现网盘高速下载。</strong></p>\n<h4 id=\"特点\"><a class=\"anchor\" href=\"#特点\">#</a> 特点</h4>\n<ul>\n<li>\n<p>同时下载 5 个</p>\n</li>\n<li>\n<p>多部分下载 - 每次下载多达 32 线</p>\n</li>\n<li>\n<p>支持代 {过}……{滤} 理</p>\n</li>\n<li>\n<p>速度限制器限制速度下载</p>\n</li>\n<li>\n<p>刷新过期链接</p>\n</li>\n<li>\n<p>ts 视频缓存转换</p>\n</li>\n</ul>\n<p><span class=\"exturl\" data-url=\"aHR0cDovL21pcC51Y2J1Zy5jb20vc2hvdWppLzEyNjUyOC5odG1s\">跳转下载</span></p>\n",

@@ -1,24 +1,24 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pangbai.work</id>
-    <title>𝕺𝖚𝖗 𝕷𝖎𝖋𝖊 • Posts by &#34;神器--冰箱的使用日常&#34; category</title>
+    <title>𝕺𝖚𝖗 𝕷𝖎𝖋𝖊Z • Posts by &#34;神器--冰箱的使用日常&#34; category</title>
     <link href="https://pangbai.work" />
     <updated>2021-03-20T04:00:27.000Z</updated>
     <category term="ADB" />
     <category term="Android" />
     <category term="html前端" />
+    <category term="Minecraft" />
+    <category term="服务器" />
     <category term="xposed" />
     <category term="xp模块" />
     <category term="太极" />
-    <category term="Minecraft" />
-    <category term="服务器" />
     <category term="icebox" />
     <category term="手机软件分享" />
     <category term="线程下载器" />
     <entry>
-        <id>https://pangbai.work/2021/03/20/share/icebox/</id>
+        <id>https://pangbai.work/share/icebox/</id>
         <title>冰箱iceBox|一个让人叹为观止的软件</title>
-        <link rel="alternate" href="https://pangbai.work/2021/03/20/share/icebox/"/>
+        <link rel="alternate" href="https://pangbai.work/share/icebox/"/>
         <content type="html">&lt;h1 id=&#34;冰箱&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#冰箱&#34;&gt;#&lt;/a&gt;  &lt;code&gt;冰箱&lt;/code&gt;&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;在着个国内流氓软件繁多的世界，你遇到过许多的不如愿。&lt;br /&gt;

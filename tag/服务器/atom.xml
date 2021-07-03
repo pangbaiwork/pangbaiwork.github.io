@@ -1,24 +1,24 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pangbai.work</id>
-    <title>𝕺𝖚𝖗 𝕷𝖎𝖋𝖊 • Posts by &#34;服务器&#34; tag</title>
+    <title>𝕺𝖚𝖗 𝕷𝖎𝖋𝖊Z • Posts by &#34;服务器&#34; tag</title>
     <link href="https://pangbai.work" />
     <updated>2021-01-11T15:20:00.000Z</updated>
     <category term="ADB" />
     <category term="Android" />
     <category term="html前端" />
+    <category term="Minecraft" />
+    <category term="服务器" />
     <category term="xposed" />
     <category term="xp模块" />
     <category term="太极" />
-    <category term="Minecraft" />
-    <category term="服务器" />
     <category term="icebox" />
     <category term="手机软件分享" />
     <category term="线程下载器" />
     <entry>
-        <id>https://pangbai.work/2021/01/11/share/CatServer/</id>
+        <id>https://pangbai.work/share/CatServer/</id>
         <title>1.12.2 | CatServer 可自行添加mod|自配权限小型整合服务端</title>
-        <link rel="alternate" href="https://pangbai.work/2021/01/11/share/CatServer/"/>
+        <link rel="alternate" href="https://pangbai.work/share/CatServer/"/>
         <content type="html">&lt;h4 id=&#34;为什么用catserver服务端做整合&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#为什么用catserver服务端做整合&#34;&gt;#&lt;/a&gt; 为什么用 CatServer 服务端做整合？&lt;/h4&gt;
 &lt;p&gt;&lt;strong&gt;CatServer 在服务端优化 / 插件支持 /mod 优化方面领先于许多服务端，选择 CatServer 做整合可以给大家带来更好的体验。 同时 CatServer 支持添加 Bukkit，Sponge，Spigot，BungeeCord 等多种服务端的插件，方便日后添加插件&lt;/strong&gt;&lt;/p&gt;
 &lt;h4 id=&#34;介绍&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#介绍&#34;&gt;#&lt;/a&gt; 介绍&lt;/h4&gt;

@@ -1,24 +1,24 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pangbai.work</id>
-    <title>𝕺𝖚𝖗 𝕷𝖎𝖋𝖊</title>
+    <title>𝕺𝖚𝖗 𝕷𝖎𝖋𝖊Z</title>
     <link href="https://pangbai.work" />
     <updated>2021-06-19T05:39:19.000Z</updated>
     <category term="ADB" />
     <category term="Android" />
     <category term="html前端" />
+    <category term="Minecraft" />
+    <category term="服务器" />
     <category term="xposed" />
     <category term="xp模块" />
     <category term="太极" />
-    <category term="Minecraft" />
-    <category term="服务器" />
     <category term="icebox" />
     <category term="手机软件分享" />
     <category term="线程下载器" />
     <entry>
-        <id>https://pangbai.work/2021/06/19/IT/dialog/</id>
+        <id>https://pangbai.work/IT/dialog/</id>
         <title>Android底部简约风格对话框</title>
-        <link rel="alternate" href="https://pangbai.work/2021/06/19/IT/dialog/"/>
+        <link rel="alternate" href="https://pangbai.work/IT/dialog/"/>
         <content type="html">&lt;p&gt;在开发的过程中，纠结于对话框的制作，各种博客上 Android 对话框的制作教程很多，在此记录下自己制作对话框详细的过程。&lt;br /&gt;
 &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;&lt;br /&gt;
  在安卓开发中，软件整体 UI 是否赏心悦目决定了用户对这个软件的评价，而对话框是用弹出的控件提醒用户操作的工具，说是 APP 的面子也不过分&lt;br /&gt;
@@ -44,9 +44,9 @@
         <updated>2021-06-19T05:39:19.000Z</updated>
     </entry>
     <entry>
-        <id>https://pangbai.work/2021/05/21/link/termux-install-linux/</id>
+        <id>https://pangbai.work/link/termux-install-linux/</id>
         <title>在手机上快速搭建Linux</title>
-        <link rel="alternate" href="https://pangbai.work/2021/05/21/link/termux-install-linux/"/>
+        <link rel="alternate" href="https://pangbai.work/link/termux-install-linux/"/>
         <content type="html">&lt;p&gt;这篇文章是国光大佬写的，制作了一键安装脚本&lt;br /&gt;
 并且将镜像放在了码云，在国内安装速度飞快&lt;br /&gt;
 在这里分享该文章，永远支持国光！！！&lt;/p&gt;
@@ -54,9 +54,9 @@
         <updated>2021-05-21T15:30:04.000Z</updated>
     </entry>
     <entry>
-        <id>https://pangbai.work/2021/03/20/share/icebox/</id>
+        <id>https://pangbai.work/share/icebox/</id>
         <title>冰箱iceBox|一个让人叹为观止的软件</title>
-        <link rel="alternate" href="https://pangbai.work/2021/03/20/share/icebox/"/>
+        <link rel="alternate" href="https://pangbai.work/share/icebox/"/>
         <content type="html">&lt;h1 id=&#34;冰箱&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#冰箱&#34;&gt;#&lt;/a&gt;  &lt;code&gt;冰箱&lt;/code&gt;&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;在着个国内流氓软件繁多的世界，你遇到过许多的不如愿。&lt;br /&gt;
@@ -87,9 +87,9 @@
         <updated>2021-03-20T04:00:27.000Z</updated>
     </entry>
     <entry>
-        <id>https://pangbai.work/2021/03/20/html/hhh/</id>
+        <id>https://pangbai.work/html/hhh/</id>
         <title>如何在一分钟内黑掉任何网站</title>
-        <link rel="alternate" href="https://pangbai.work/2021/03/20/html/hhh/"/>
+        <link rel="alternate" href="https://pangbai.work/html/hhh/"/>
         <content type="html">&lt;h3 id=&#34;零基础教学&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#零基础教学&#34;&gt;#&lt;/a&gt;  &lt;code&gt;零基础教学&lt;/code&gt;&lt;/h3&gt;
 &lt;p&gt;即使什么都不会，也只需要你的耐心&lt;/p&gt;
 &lt;h1 id=&#34;免责申明&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#免责申明&#34;&gt;#&lt;/a&gt;  &lt;code&gt;免责申明&lt;/code&gt;&lt;/h1&gt;
@@ -186,9 +186,9 @@
         <updated>2021-03-20T04:00:25.000Z</updated>
     </entry>
     <entry>
-        <id>https://pangbai.work/2021/03/13/html/jstxt/</id>
+        <id>https://pangbai.work/html/jstxt/</id>
         <title>利用JavaScript实现循环打字效果</title>
-        <link rel="alternate" href="https://pangbai.work/2021/03/13/html/jstxt/"/>
+        <link rel="alternate" href="https://pangbai.work/html/jstxt/"/>
         <content type="html">&lt;p&gt;&lt;ins class=&#34;primary&#34;&gt;一个自己制作的 JS 打字效果&lt;/ins&gt;&lt;/p&gt;
 &lt;h1 id=&#34;效果&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#效果&#34;&gt;#&lt;/a&gt; 效果&lt;/h1&gt;
 &lt;ul class=&#34;task-list&#34;&gt;
@@ -215,9 +215,9 @@
         <updated>2021-03-13T11:27:55.000Z</updated>
     </entry>
     <entry>
-        <id>https://pangbai.work/2021/01/16/IT/adb/</id>
+        <id>https://pangbai.work/IT/adb/</id>
         <title>ADB带来的春天</title>
-        <link rel="alternate" href="https://pangbai.work/2021/01/16/IT/adb/"/>
+        <link rel="alternate" href="https://pangbai.work/IT/adb/"/>
         <content type="html">&lt;p&gt;ADB 全称 Android Debug Bridgde&lt;br /&gt;
  是安卓手机自带的供开发者使用的调试工具。这个工具可以直接操作管理 android 模拟器或者真实的 andriod 设备&lt;br /&gt;
 &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;&lt;br /&gt;
@@ -241,9 +241,9 @@ adb 的主要功能如下&lt;/p&gt;
         <updated>2021-01-16T05:39:19.000Z</updated>
     </entry>
     <entry>
-        <id>https://pangbai.work/2021/01/16/share/idm/</id>
+        <id>https://pangbai.work/share/idm/</id>
         <title>LDM+线程下载器</title>
-        <link rel="alternate" href="https://pangbai.work/2021/01/16/share/idm/"/>
+        <link rel="alternate" href="https://pangbai.work/share/idm/"/>
         <content type="html">&lt;h4 id=&#34;idm下载器&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#idm下载器&#34;&gt;#&lt;/a&gt; IDM 下载器&lt;/h4&gt;
 &lt;p&gt;&lt;strong&gt;线程下载器在电脑上是比较出名的，但你有用过手机版的线程下载器吗？&lt;br /&gt;
 面对国外网站的文件下载，用龟速来形容也不为过，当你看到 16kb/s 时估计已经对 100 多兆的文件绝望了，此时的 IDM 线程下载器就能拯救你了。  &lt;br /&gt;
@@ -278,9 +278,9 @@ adb 的主要功能如下&lt;/p&gt;
         <updated>2021-01-16T05:39:19.000Z</updated>
     </entry>
     <entry>
-        <id>https://pangbai.work/2021/01/11/share/CatServer/</id>
+        <id>https://pangbai.work/share/CatServer/</id>
         <title>1.12.2 | CatServer 可自行添加mod|自配权限小型整合服务端</title>
-        <link rel="alternate" href="https://pangbai.work/2021/01/11/share/CatServer/"/>
+        <link rel="alternate" href="https://pangbai.work/share/CatServer/"/>
         <content type="html">&lt;h4 id=&#34;为什么用catserver服务端做整合&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#为什么用catserver服务端做整合&#34;&gt;#&lt;/a&gt; 为什么用 CatServer 服务端做整合？&lt;/h4&gt;
 &lt;p&gt;&lt;strong&gt;CatServer 在服务端优化 / 插件支持 /mod 优化方面领先于许多服务端，选择 CatServer 做整合可以给大家带来更好的体验。 同时 CatServer 支持添加 Bukkit，Sponge，Spigot，BungeeCord 等多种服务端的插件，方便日后添加插件&lt;/strong&gt;&lt;/p&gt;
 &lt;h4 id=&#34;介绍&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#介绍&#34;&gt;#&lt;/a&gt; 介绍&lt;/h4&gt;
@@ -314,9 +314,9 @@ adb 的主要功能如下&lt;/p&gt;
         <updated>2021-01-11T15:20:00.000Z</updated>
     </entry>
     <entry>
-        <id>https://pangbai.work/2021/01/01/share/RedBag/</id>
+        <id>https://pangbai.work/share/RedBag/</id>
         <title>抢红包</title>
-        <link rel="alternate" href="https://pangbai.work/2021/01/01/share/RedBag/"/>
+        <link rel="alternate" href="https://pangbai.work/share/RedBag/"/>
         <content type="html">&lt;p&gt;如何让红包手到擒来？&lt;br /&gt;
 除夕夜手速慢更是会导致你上 &amp;quot;亿&amp;quot; 的损失！&lt;/p&gt;
 &lt;hr /&gt;
