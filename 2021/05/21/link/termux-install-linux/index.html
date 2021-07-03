@@ -1,0 +1,498 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh_CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#FFF">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="icon" type="image/ico" sizes="32x32" href="/images/favicon.ico">
+  <meta http-equiv="Cache-Control" content="no-transform">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+<link rel="alternate" type="application/rss+xml" title="𝕺𝖚𝖗 𝕷𝖎𝖋𝖊" href="https://pangbai.work/rss.xml" />
+<link rel="alternate" type="application/atom+xml" title="𝕺𝖚𝖗 𝕷𝖎𝖋𝖊" href="https://pangbai.work/atom.xml" />
+<link rel="alternate" type="application/json" title="𝕺𝖚𝖗 𝕷𝖎𝖋𝖊" href="https://pangbai.work/feed.json" />
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Mulish:300,300italic,400,400italic,700,700italic%7CFredericka%20the%20Great:300,300italic,400,400italic,700,700italic%7CNoto%20Serif%20JP:300,300italic,400,400italic,700,700italic%7CNoto%20Serif%20SC:300,300italic,400,400italic,700,700italic%7CInconsolata:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="/css/app.css?v=0.2.5">
+
+  
+
+<link rel="canonical" href="https://pangbai.work/2021/05/21/link/termux-install-linux/">
+
+
+
+  <title>
+在手机上快速搭建Linux - 使用Termux搭建linux |
+PangBai's Blog = 𝕺𝖚𝖗 𝕷𝖎𝖋𝖊</title>
+<meta name="generator" content="Hexo 5.4.0"></head>
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div id="loading">
+    <div class="cat">
+      <div class="body"></div>
+      <div class="head">
+        <div class="face"></div>
+      </div>
+      <div class="foot">
+        <div class="tummy-end"></div>
+        <div class="bottom"></div>
+        <div class="legs left"></div>
+        <div class="legs right"></div>
+      </div>
+      <div class="paw">
+        <div class="hands left"></div>
+        <div class="hands right"></div>
+      </div>
+    </div>
+  </div>
+  <div id="container">
+    <header id="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="inner">
+        <div id="brand">
+          <div class="pjax">
+          
+  <h1 itemprop="name headline">
+      <span class="exturl link external" data-url="aHR0cHM6Ly93d3cuc3Fsc2VjLmNvbS8yMDIwLzA0L3Rlcm11eGxpbnV4Lmh0bWw=" itemprop="url">在手机上快速搭建Linux<i class="ic i-link-alt"></i></span>
+  </h1>
+  
+<div class="meta">
+  <span class="item" title="Created: 2021-05-21 23:30:04">
+    <span class="icon">
+      <i class="ic i-calendar"></i>
+    </span>
+    <span class="text">Posted on</span>
+    <time itemprop="dateCreated datePublished" datetime="2021-05-21T23:30:04+08:00">2021-05-21</time>
+  </span>
+</div>
+
+
+          </div>
+        </div>
+        <nav id="nav">
+  <div class="inner">
+    <div class="toggle">
+      <div class="lines" aria-label="Toggle navigation bar">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+    </div>
+    <ul class="menu">
+      <li class="item title"><a href="/" rel="start">PangBai's Blog</a></li>
+    </ul>
+    <ul class="right">
+      <li class="item theme">
+        <i class="ic i-sun"></i>
+      </li>
+      <li class="item search">
+        <i class="ic i-search"></i>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+      </div>
+      <div id="imgs" class="pjax">
+        <ul>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1gicljitigmj20zk0m87fp.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1giclwrdwyaj20zk0m8are.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1giclxp31goj20zk0m8qv5.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1gipevo9j1jj20zk0m8e81.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1giciszlczyj20zk0m816d.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1giph47e9vtj20zk0m8x6l.jpg"></li>
+        </ul>
+      </div>
+    </header>
+    <div id="waves">
+      <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+          <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g class="parallax">
+          <use xlink:href="#gentle-wave" x="48" y="0" />
+          <use xlink:href="#gentle-wave" x="48" y="3" />
+          <use xlink:href="#gentle-wave" x="48" y="5" />
+          <use xlink:href="#gentle-wave" x="48" y="7" />
+        </g>
+      </svg>
+    </div>
+    <main>
+      <div class="inner">
+        <div id="main" class="pjax">
+          
+  <div class="article wrap">
+    
+<div class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+<i class="ic i-home"></i>
+<span><a href="/">Home</a></span><i class="ic i-angle-right"></i>
+<span  class="current" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="/categories/%E4%BD%BF%E7%94%A8Termux%E6%90%AD%E5%BB%BAlinux/" itemprop="item" rel="index" title="In 使用Termux搭建linux"><span itemprop="name">使用Termux搭建linux</span></a>
+<meta itemprop="position" content="1" /></span>
+</div>
+
+    <article itemscope itemtype="http://schema.org/Article" class="post block" lang="zh_CN">
+  <link itemprop="mainEntityOfPage" href="https://pangbai.work/2021/05/21/link/termux-install-linux/">
+
+  <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="image" content="/images/avatar.jpg">
+    <meta itemprop="name" content="PangBai">
+    <meta itemprop="description" content=", ">
+  </span>
+
+  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="𝕺𝖚𝖗 𝕷𝖎𝖋𝖊">
+  </span>
+
+  <div class="body md" itemprop="articleBody">
+    
+
+    <p>这篇文章是国光大佬写的，制作了一键安装脚本<br />
+并且将镜像放在了码云，在国内安装速度飞快<br />
+在这里分享该文章，永远支持国光！！！</p>
+
+  </div>
+
+   <footer>
+
+    <div class="meta">
+  <span class="item">
+    <span class="icon">
+      <i class="ic i-calendar-check"></i>
+    </span>
+    <span class="text">Edited on</span>
+    <time title="Modified: 2021-06-07 22:26:35" itemprop="dateModified" datetime="2021-06-07T22:26:35+08:00">2021-06-07</time>
+  </span>
+</div>
+
+      
+<div class="reward">
+  <button><i class="ic i-heartbeat"></i> Donate</button>
+  <p>Give me a cup of [coffee]~(￣▽￣)~*</p>
+  <div id="qr">
+      
+      <div>
+        <img data-src="/images/wechatpay.png" alt="PangBai WeChat Pay">
+        <p>WeChat Pay</p>
+      </div>
+  </div>
+</div>
+
+      
+
+<div id="copyright">
+<ul>
+  <li class="author">
+    <strong>Post author:  </strong>PangBai <i class="ic i-at"><em>@</em></i>𝕺𝖚𝖗 𝕷𝖎𝖋𝖊
+  </li>
+  <li class="link">
+    <strong>Post link: </strong>
+    <a href="https://pangbai.work/2021/05/21/link/termux-install-linux/" title="在手机上快速搭建Linux">https://pangbai.work/2021/05/21/link/termux-install-linux/</a>
+  </li>
+  <li class="license">
+    <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <span class="exturl" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC9kZWVkLnpo"><i class="ic i-creative-commons"><em>(CC)</em></i>BY-NC-SA</span> unless stating additionally.
+  </li>
+</ul>
+</div>
+
+  </footer>
+
+</article>
+
+  </div>
+  
+
+<div class="post-nav">
+    <div class="item left">
+      
+
+  <a href="/2021/03/20/share/icebox/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;tva1.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1gipesx5fdwj20zk0m81kx.jpg" title="冰箱iceBox|一个让人叹为观止的软件">
+  <span class="type">Previous Post</span>
+  <span class="category"><i class="ic i-flag"></i> 神器--冰箱的使用日常</span>
+  <h3>冰箱iceBox|一个让人叹为观止的软件</h3>
+  </a>
+
+    </div>
+    <div class="item right">
+      
+
+  <a href="/2021/06/19/IT/dialog/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;tva1.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1gicli9lfebj20zk0m84qp.jpg" title="Android底部简约风格对话框">
+  <span class="type">Next Post</span>
+  <span class="category"><i class="ic i-flag"></i> Nowork开发笔记</span>
+  <h3>Android底部简约风格对话框</h3>
+  </a>
+
+    </div>
+</div>
+
+  
+  <div class="wrap" id="comments"></div>
+
+
+        </div>
+        <div id="sidebar">
+          
+
+<div class="inner">
+
+  <div class="panels">
+    <div class="inner">
+      <div class="contents panel pjax" data-title="Contents">
+      </div>
+      <div class="related panel pjax" data-title="Related">
+        <ul>
+          <li class="active"><a href="/2021/05/21/link/termux-install-linux/" rel="bookmark" title="在手机上快速搭建Linux">在手机上快速搭建Linux</a></li>
+        </ul>
+      </div>
+      <div class="overview panel" data-title="Overview">
+        <div class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <img class="image" itemprop="image" alt="PangBai"
+      data-src="/images/avatar.jpg">
+  <p class="name" itemprop="name">PangBai</p>
+  <div class="description" itemprop="description"></div>
+</div>
+
+<nav class="state">
+    <div class="item posts">
+      <a href="/archives/">
+        <span class="count">9</span>
+        <span class="name">posts</span>
+      </a>
+    </div>
+    <div class="item categories">
+      <a href="/categories/">
+        <span class="count">9</span>
+        <span class="name">categories</span>
+      </a>
+    </div>
+    <div class="item tags">
+      <a href="/tags/">
+        <span class="count">11</span>
+        <span class="name">tags</span>
+      </a>
+    </div>
+</nav>
+
+<div class="social">
+      <span class="exturl item github" data-url="aHR0cHM6Ly9naXRodWIuY29tL3BhbmdiYWl3b3Jr" title="https:&#x2F;&#x2F;github.com&#x2F;pangbaiwork"><i class="ic i-github"></i></span>
+      <span class="exturl item qq" data-url="aHR0cHM6Ly9xbS5xcS5jb20vY2dpLWJpbi9xbS9xcj9rPTBGMVlPVGVMRXlQZ0FYajdoeHBlak5jQXNWMm5OcldGJm5vdmVyaWZ5PTA=" title="https:&#x2F;&#x2F;qm.qq.com&#x2F;cgi-bin&#x2F;qm&#x2F;qr?k&#x3D;0F1YOTeLEyPgAXj7hxpejNcAsV2nNrWF&amp;noverify&#x3D;0"><i class="ic i-qq"></i></span>
+      <a href="/about/" title="&#x2F;about&#x2F;" class="item about"><i class="ic i-address-card"></i></a>
+</div>
+
+<ul class="menu">
+  
+    
+  <li class="item">
+    <a href="/" rel="section"><i class="ic i-home"></i>首页</a>
+  </li>
+
+    
+  <li class="item">
+    <a href="/about/" rel="section"><i class="ic i-heart"></i>关于</a>
+  </li>
+
+    
+  <li class="item">
+    <a href="/links/" rel="section"><i class="ic i-magic"></i>友情链接</a>
+  </li>
+
+    
+  <li class="item">
+    <a href="/friend/" rel="section"><i class="ic i-user"></i>朋友</a>
+  </li>
+
+    
+  <li class="item">
+    <a href="/music/" rel="section"><i class="ic i-music"></i>听听旁白喜欢的歌</a>
+  </li>
+
+    
+  <li class="item">
+    <a href="/thinks/" rel="section"><i class="ic i-th"></i>启思录</a>
+  </li>
+
+
+</ul>
+
+      </div>
+    </div>
+  </div>
+
+  <ul id="quick">
+    <li class="prev pjax">
+        <a href="/2021/03/20/share/icebox/" rel="prev" title="Previous Post"><i class="ic i-chevron-left"></i></a>
+    </li>
+    <li class="up"><i class="ic i-arrow-up"></i></li>
+    <li class="down"><i class="ic i-arrow-down"></i></li>
+    <li class="next pjax">
+        <a href="/2021/06/19/IT/dialog/" rel="next" title="Next Post"><i class="ic i-chevron-right"></i></a>
+    </li>
+    <li class="percent"></li>
+  </ul>
+</div>
+
+
+        </div>
+        <div class="dimmer"></div>
+      </div>
+    </main>
+    <footer id="footer">
+      <div class="inner">
+        <div class="widgets">
+          
+<div class="rpost pjax">
+  <h2>Random Posts</h2>
+  <ul>
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E4%B8%80%E4%B8%AA%E5%BE%88%E7%89%9B%E7%9A%84%E6%89%8B%E6%9C%BA%E7%AB%AF%E7%BA%BF%E7%A8%8B%E4%B8%8B%E8%BD%BD%E5%99%A8/" title="In 一个很牛的手机端线程下载器">一个很牛的手机端线程下载器</a>
+</div>
+
+    <span><a href="/2021/01/16/share/idm/" title="LDM+线程下载器">LDM+线程下载器</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E5%8F%AF%E8%83%BD%E6%98%AF%E6%9C%AC%E7%AB%99%E5%94%AF%E4%B8%80%E4%B8%80%E7%AF%87%E6%9C%89%E7%94%A8%E7%9A%84%E6%96%87%E7%AB%A0/" title="In 可能是本站唯一一篇有用的文章">可能是本站唯一一篇有用的文章</a>
+</div>
+
+    <span><a href="/2021/03/20/html/hhh/" title="如何在一分钟内黑掉任何网站">如何在一分钟内黑掉任何网站</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E4%BD%BF%E7%94%A8Termux%E6%90%AD%E5%BB%BAlinux/" title="In 使用Termux搭建linux">使用Termux搭建linux</a>
+</div>
+
+    <span><span class="exturl" data-url="aHR0cHM6Ly93d3cuc3Fsc2VjLmNvbS8yMDIwLzA0L3Rlcm11eGxpbnV4Lmh0bWw=" title="在手机上快速搭建Linux">在手机上快速搭建Linux<i class="ic i-link-alt"></i></span></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/Minecraft%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA/" title="In Minecraft服务器搭建">Minecraft服务器搭建</a>
+</div>
+
+    <span><a href="/2021/01/11/share/CatServer/" title="1.12.2 | CatServer 可自行添加mod|自配权限小型整合服务端">1.12.2 | CatServer 可自行添加mod|自配权限小型整合服务端</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/Nowork%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/" title="In Nowork开发笔记">Nowork开发笔记</a>
+</div>
+
+    <span><a href="/2021/06/19/IT/dialog/" title="Android底部简约风格对话框">Android底部简约风格对话框</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E5%BC%BA%E5%A4%A7%E7%9A%84%E5%AE%89%E5%8D%93%E8%B0%83%E8%AF%95%E5%B7%A5%E5%85%B7/" title="In 强大的安卓调试工具">强大的安卓调试工具</a>
+</div>
+
+    <span><a href="/2021/01/16/IT/adb/" title="ADB带来的春天">ADB带来的春天</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E7%A5%9E%E5%99%A8-%E5%86%B0%E7%AE%B1%E7%9A%84%E4%BD%BF%E7%94%A8%E6%97%A5%E5%B8%B8/" title="In 神器--冰箱的使用日常">神器--冰箱的使用日常</a>
+</div>
+
+    <span><a href="/2021/03/20/share/icebox/" title="冰箱iceBox|一个让人叹为观止的软件">冰箱iceBox|一个让人叹为观止的软件</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E4%B8%80%E4%B8%AA%E8%87%AA%E5%88%B6%E7%9A%84JS%E6%89%93%E5%AD%97%E6%95%88%E6%9E%9C/" title="In 一个自制的JS打字效果">一个自制的JS打字效果</a>
+</div>
+
+    <span><a href="/2021/03/13/html/jstxt/" title="利用JavaScript实现循环打字效果">利用JavaScript实现循环打字效果</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/Xposed/" title="In Xposed">Xposed</a>
+</div>
+
+    <span><a href="/2021/01/01/share/RedBag/" title="抢红包">抢红包</a></span>
+  </li>
+
+  </ul>
+</div>
+<div>
+  <h2>Recent Comments</h2>
+  <ul class="leancloud-recent-comment"></ul>
+</div>
+
+        </div>
+        <div class="status">
+  <div class="copyright">
+    
+    &copy; 
+    <span itemprop="copyrightYear">2021</span>
+    <span class="with-love">
+      <i class="ic i-sakura rotate"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">PangBai @ PangBai's Blog</span>
+  </div>
+</div>
+
+      </div>
+    </footer>
+  </div>
+<script data-config type="text/javascript">
+  var LOCAL = {
+    path: '2021/05/21/link/termux-install-linux/',
+    favicon: {
+      show: "（●´3｀●）Goooood",
+      hide: "(´Д｀)Booooom"
+    },
+    search : {
+      placeholder: "Search for Posts",
+      empty: "We didn't find any results for the search: ${query}",
+      stats: "${hits} results found in ${time} ms"
+    },
+    valine: true,fancybox: true,copyright: 'Copied to clipboard successfully! <br> All articles in this blog are licensed under <i class="ic i-creative-commons"></i>BY-NC-SA.',
+    ignores : [
+      function(uri) {
+        return uri.includes('#');
+      },
+      function(uri) {
+        return new RegExp(LOCAL.path+"$").test(uri);
+      }
+    ]
+  };
+</script>
+
+<script src="https://cdn.polyfill.io/v2/polyfill.js"></script>
+
+<script src="//cdn.jsdelivr.net/combine/npm/pace-js@1.0.2/pace.min.js,npm/pjax@0.2.8/pjax.min.js,npm/whatwg-fetch@3.4.0/dist/fetch.umd.min.js,npm/animejs@3.2.0/lib/anime.min.js,npm/algoliasearch@4/dist/algoliasearch-lite.umd.js,npm/instantsearch.js@4/dist/instantsearch.production.min.js,npm/lozad@1/dist/lozad.min.js,npm/quicklink@2/dist/quicklink.umd.js"></script>
+
+<script src="/js/app.js?v=0.2.5"></script>
+
+
+
+
+</body>
+</html>
