@@ -8,16 +8,16 @@
         <pubDate>Fri, 21 May 2021 23:30:04 +0800</pubDate>
         <lastBuildDate>Fri, 21 May 2021 23:30:04 +0800</lastBuildDate>
         <category>ADB</category>
-        <category>Android</category>
         <category>html前端</category>
-        <category>Minecraft</category>
-        <category>服务器</category>
         <category>xposed</category>
         <category>xp模块</category>
         <category>太极</category>
         <category>icebox</category>
         <category>手机软件分享</category>
         <category>线程下载器</category>
+        <category>Android</category>
+        <category>Minecraft</category>
+        <category>服务器</category>
         <item>
             <guid isPermalink="true">https://pangbai.work/2021/05/21/link/termux-install-linux/</guid>
             <title>在手机上快速搭建Linux</title>

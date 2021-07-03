@@ -8,16 +8,16 @@
         <pubDate>Sat, 13 Mar 2021 19:27:55 +0800</pubDate>
         <lastBuildDate>Sat, 13 Mar 2021 19:27:55 +0800</lastBuildDate>
         <category>ADB</category>
-        <category>Android</category>
         <category>html前端</category>
-        <category>Minecraft</category>
-        <category>服务器</category>
         <category>xposed</category>
         <category>xp模块</category>
         <category>太极</category>
         <category>icebox</category>
         <category>手机软件分享</category>
         <category>线程下载器</category>
+        <category>Android</category>
+        <category>Minecraft</category>
+        <category>服务器</category>
         <item>
             <guid isPermalink="true">https://pangbai.work/2021/03/13/html/jstxt/</guid>
             <title>利用JavaScript实现循环打字效果</title>
