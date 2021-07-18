@@ -1,0 +1,21 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "𝕺𝖚𝖗 𝕷𝖎𝖋𝖊 • All posts by \"linux\" tag",
+    "description": "记录生活 | 为众人抱薪者,不可使其扼于风雪",
+    "home_page_url": "https://pangbai.work",
+    "items": [
+        {
+            "id": "https://pangbai.work/IT/kali/",
+            "url": "https://pangbai.work/IT/kali/",
+            "title": "干货！在任意安卓手机上刷入kali Nethuner",
+            "date_published": "2021-07-18T02:24:58.000Z",
+            "content_html": "<p>如果你了解过网络安全方面的知识，那你一定会听过 ````Kali Linux``` 的名字<br />\n它被广泛使用于网络攻击，不过分的说，多年来，进攻安全系统一直以 Kali Linux 的系统主导市场。<br />\n而 Kali Linux NetHunter 则是一款适用于 Android 移动设备的 Kali Linux 渗透测试系统。(但从攻击工具的使用上，ANDRAX 似乎比已经过时的它更加好用)</p>\n<p>我是一个高中生，没有什么很厉害等想法，也没有想过黑客之类的东西，只想用手机玩玩 linux，看着指令行，用着电脑的图形页面很惬意。手机已经 root 自然不用去搞 termux 了，我把目光转向 proot。于是安装了 linuxdeploy，它可以选择不同的 linux 发行版与架构，非常完美，但我不认为它足够稳定。使用目录安装基本只会失败，而使用镜像更加鸡肋。经常挂载失败无法启动镜像，不是实体文件夹，难已备份数据，vnc 启动易死，只要有些东西错误，只能前功尽弃，然后重新安装 linux，又等个一个小时把之前的重新做一遍。</p>\n<p>于是，我想到了直接在手机上刷入 linux 的想法，然后发现了 nethunter，起初以为我的手机不支持这东西 (名单里似乎只有一加和谷歌的亲儿子)，逛了几个博客发现，有个通刷包，只是不能使用外接监听网卡。很激动，花了很时间线，最后成功了。</p>\n<p>接下来进入主题，如何在安卓手机上刷人 Kali Linux NetHunter<br />\n 注：本篇文章，只用于技术交流，旨在方便 proot 运行 linux，任何使用工具照成的后果与本人无关<br />\n作者:  <code>PangBai</code> <br />\n 转载请注明来源</p>\n<p>准备条件</p>\n<ul>\n<li>一台已 root 的手机 (带 twrp 就不用说了)</li>\n<li>nethunter 通刷包</li>\n<li>一定的刷机经验</li>\n<li>备份数据和救砖准备 (其实失败几率很小)</li>\n</ul>\n<h2 id=\"下载kali-nethunter\"><a class=\"anchor\" href=\"#下载kali-nethunter\">#</a> 下载 kali nethunter</h2>\n<p>这里给出三个刷机包，请根据需要选择<br />\n arm 64 位最新版<br />\n<span class=\"exturl\" data-url=\"aHR0cHM6Ly9pbWFnZXMua2FsaS5vcmcvbmV0aHVudGVyL25ldGh1bnRlci0yMDIxLjItZ2VuZXJpYy1hcm02NC1rYWxpZnMtZnVsbC56aXA=\"> ARM64</span><br />\narm 32 位最新版<br />\n<span class=\"exturl\" data-url=\"aHR0cHM6Ly9pbWFnZXMua2FsaS5vcmcvbmV0aHVudGVyL25ldGh1bnRlci0yMDIxLjItZ2VuZXJpYy1hcm1oZi1rYWxpZnMtZnVsbC56aXA=\"> arm32</span><br />\narm 32 位旧版<br />\n<span class=\"exturl\" data-url=\"aHR0cHM6Ly9idWlsZC5uZXRodW50ZXIuY29tL2luc3RhbGxlci9nZW5lcmljL3VwZGF0ZS1uZXRodW50ZXItZ2VuZXJpYy1hcm1oZi0yMDE3MTAwN18yMTUxNDYuemlw\"> arm32</span><br />\n 如果你仅仅想安装一个 linux 请选最后一个链接，包很小，但很多组件是旧的 (upgrade 直接几个 G 给你吃了，还耗了几个小时)</p>\n<p>mages/1.png)## 安装 kali nethunter<br />\n 手机关机，再按开机键和音量键，进入 TWRP<br />\n 滑动允许修改系统<br />\n点击右上的清除按钮，<br />\n滑动清除 (其实也许并不是特别需要)<br />\n 返回主页<br />\n点击安装按钮<br />\n选择之前下载的 nethunter 包<br />\n刷入<br />\n等待......(包解压时会耗费很长时间)<br />\n 最后成功<br />\n启动系统<br />\n开机动画很炫酷，内心激动不已<br />\n<img data-src=\"http://shp.qpic.cn/collector/1642981619/0658a6e2-c2c2-4e93-a172-871a32f70959/0\" alt=\"TWRP图\" /><br />\n<img data-src=\"http://shp.qpic.cn/collector/1642981619/eb912516-d5a6-4b0c-9dbe-9d556d2aa2b6/0\" alt=\"nethunter开机图\" /><br />\n开机后与原来的手机没有差别，一样的锁屏，桌面，安卓软件<br />\n唯一特殊的是多了几个特别的 APP</p>\n<h2 id=\"配置\"><a class=\"anchor\" href=\"#配置\">#</a> 配置</h2>\n<p>刷入的 kali 系统，目录在 /data/local/nhsystem/ 下面</p>\n<p>新增的安卓软件有以下几个<br />\n NetHunter      --&gt;kali 系统的控制软件<br />\n NetHunter 终端  --&gt; 命令行执行软件<br />\n Nethunter vnc  --&gt;vnc 链接软件<br />\n cSploit        --&gt; 移动端便捷的一键渗透工具<br />\n Hacker's keyboard --&gt; 键盘，并不好用<br />\n还有一些我不知道用途</p>\n<p>首先进入 nethunter 终端 弹出对话框<br />\n可以选择命令的执行端，果断选 KALI</p>\n<p>apt update 发现？？不行，需要换源<br />\n去安装目录下更改 etc/apt/sources.list<br />\n 把内容全部换掉</p>\n<pre><code class=\"language-sh\">deb http://mirrors.ustc.edu.cn/kali kali-rolling main non-free contrib\ndeb-src http://mirrors.ustc.edu.cn/kali kali-rolling main non-free contrib\n</code></pre>\n<p>然后运行<br />\n apt update<br />\n 如果失败请去百度搜索有关数字签名教程</p>\n<p>接下来是启动 vnc 图形页面<br />\n打开 Nethunter<br />\n 点击 VNC Manager<br />\n 点击 SETUP LOCAL SERVER<br />\n 设置密码<br />\n然后输入以下启动指令</p>\n<pre><code class=\"language-sh\">export USER=root\nexport HOME=/root\n\nvncserver -kill :1\nrm -rf /tmp/.X1-lock\nrm -rf /tmp/.X11-unix/X1\n\nvncserver -name remote-desktop :1\n</code></pre>\n<p>打开 VNC 链接软件 (推荐去下载第三方的 vnc，nethunter vnc 不好用)<br />\n 地址: 127.0.0.1:5901<br />\n 账号: root<br />\n 密码：你设置的密码</p>\n<p>然后看到了熟悉的桌面<br />\n<img data-src=\"https://shp.qpic.cn/collector/1642981619/32a2cfd6-51e7-4fd4-ab14-e6df705e084a/0\" alt=\"kali桌面\" /></p>\n",
+            "tags": [
+                "Android",
+                "linux",
+                "kail",
+                "渗透"
+            ]
+        }
+    ]
+}

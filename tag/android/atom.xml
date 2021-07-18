@@ -3,7 +3,7 @@
     <id>https://pangbai.work</id>
     <title>𝕺𝖚𝖗 𝕷𝖎𝖋𝖊 • Posts by &#34;android&#34; tag</title>
     <link href="https://pangbai.work" />
-    <updated>2021-06-19T05:39:19.000Z</updated>
+    <updated>2021-07-18T02:24:58.000Z</updated>
     <category term="ADB" />
     <category term="Android" />
     <category term="html前端" />
@@ -15,6 +15,103 @@
     <category term="icebox" />
     <category term="手机软件分享" />
     <category term="线程下载器" />
+    <category term="linux" />
+    <category term="kail" />
+    <category term="渗透" />
+    <entry>
+        <id>https://pangbai.work/IT/kali/</id>
+        <title>干货！在任意安卓手机上刷入kali Nethuner</title>
+        <link rel="alternate" href="https://pangbai.work/IT/kali/"/>
+        <content type="html">&lt;p&gt;如果你了解过网络安全方面的知识，那你一定会听过 ````Kali Linux``` 的名字&lt;br /&gt;
+它被广泛使用于网络攻击，不过分的说，多年来，进攻安全系统一直以 Kali Linux 的系统主导市场。&lt;br /&gt;
+而 Kali Linux NetHunter 则是一款适用于 Android 移动设备的 Kali Linux 渗透测试系统。(但从攻击工具的使用上，ANDRAX 似乎比已经过时的它更加好用)&lt;/p&gt;
+&lt;p&gt;我是一个高中生，没有什么很厉害等想法，也没有想过黑客之类的东西，只想用手机玩玩 linux，看着指令行，用着电脑的图形页面很惬意。手机已经 root 自然不用去搞 termux 了，我把目光转向 proot。于是安装了 linuxdeploy，它可以选择不同的 linux 发行版与架构，非常完美，但我不认为它足够稳定。使用目录安装基本只会失败，而使用镜像更加鸡肋。经常挂载失败无法启动镜像，不是实体文件夹，难已备份数据，vnc 启动易死，只要有些东西错误，只能前功尽弃，然后重新安装 linux，又等个一个小时把之前的重新做一遍。&lt;/p&gt;
+&lt;p&gt;于是，我想到了直接在手机上刷入 linux 的想法，然后发现了 nethunter，起初以为我的手机不支持这东西 (名单里似乎只有一加和谷歌的亲儿子)，逛了几个博客发现，有个通刷包，只是不能使用外接监听网卡。很激动，花了很时间线，最后成功了。&lt;/p&gt;
+&lt;p&gt;接下来进入主题，如何在安卓手机上刷人 Kali Linux NetHunter&lt;br /&gt;
+ 注：本篇文章，只用于技术交流，旨在方便 proot 运行 linux，任何使用工具照成的后果与本人无关&lt;br /&gt;
+作者:  &lt;code&gt;PangBai&lt;/code&gt; &lt;br /&gt;
+ 转载请注明来源&lt;/p&gt;
+&lt;p&gt;准备条件&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;一台已 root 的手机 (带 twrp 就不用说了)&lt;/li&gt;
+&lt;li&gt;nethunter 通刷包&lt;/li&gt;
+&lt;li&gt;一定的刷机经验&lt;/li&gt;
+&lt;li&gt;备份数据和救砖准备 (其实失败几率很小)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;下载kali-nethunter&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#下载kali-nethunter&#34;&gt;#&lt;/a&gt; 下载 kali nethunter&lt;/h2&gt;
+&lt;p&gt;这里给出三个刷机包，请根据需要选择&lt;br /&gt;
+ arm 64 位最新版&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9pbWFnZXMua2FsaS5vcmcvbmV0aHVudGVyL25ldGh1bnRlci0yMDIxLjItZ2VuZXJpYy1hcm02NC1rYWxpZnMtZnVsbC56aXA=&#34;&gt; ARM64&lt;/span&gt;&lt;br /&gt;
+arm 32 位最新版&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9pbWFnZXMua2FsaS5vcmcvbmV0aHVudGVyL25ldGh1bnRlci0yMDIxLjItZ2VuZXJpYy1hcm1oZi1rYWxpZnMtZnVsbC56aXA=&#34;&gt; arm32&lt;/span&gt;&lt;br /&gt;
+arm 32 位旧版&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9idWlsZC5uZXRodW50ZXIuY29tL2luc3RhbGxlci9nZW5lcmljL3VwZGF0ZS1uZXRodW50ZXItZ2VuZXJpYy1hcm1oZi0yMDE3MTAwN18yMTUxNDYuemlw&#34;&gt; arm32&lt;/span&gt;&lt;br /&gt;
+ 如果你仅仅想安装一个 linux 请选最后一个链接，包很小，但很多组件是旧的 (upgrade 直接几个 G 给你吃了，还耗了几个小时)&lt;/p&gt;
+&lt;p&gt;mages/1.png)## 安装 kali nethunter&lt;br /&gt;
+ 手机关机，再按开机键和音量键，进入 TWRP&lt;br /&gt;
+ 滑动允许修改系统&lt;br /&gt;
+点击右上的清除按钮，&lt;br /&gt;
+滑动清除 (其实也许并不是特别需要)&lt;br /&gt;
+ 返回主页&lt;br /&gt;
+点击安装按钮&lt;br /&gt;
+选择之前下载的 nethunter 包&lt;br /&gt;
+刷入&lt;br /&gt;
+等待......(包解压时会耗费很长时间)&lt;br /&gt;
+ 最后成功&lt;br /&gt;
+启动系统&lt;br /&gt;
+开机动画很炫酷，内心激动不已&lt;br /&gt;
+&lt;img data-src=&#34;http://shp.qpic.cn/collector/1642981619/0658a6e2-c2c2-4e93-a172-871a32f70959/0&#34; alt=&#34;TWRP图&#34; /&gt;&lt;br /&gt;
+&lt;img data-src=&#34;http://shp.qpic.cn/collector/1642981619/eb912516-d5a6-4b0c-9dbe-9d556d2aa2b6/0&#34; alt=&#34;nethunter开机图&#34; /&gt;&lt;br /&gt;
+开机后与原来的手机没有差别，一样的锁屏，桌面，安卓软件&lt;br /&gt;
+唯一特殊的是多了几个特别的 APP&lt;/p&gt;
+&lt;h2 id=&#34;配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#配置&#34;&gt;#&lt;/a&gt; 配置&lt;/h2&gt;
+&lt;p&gt;刷入的 kali 系统，目录在 /data/local/nhsystem/ 下面&lt;/p&gt;
+&lt;p&gt;新增的安卓软件有以下几个&lt;br /&gt;
+ NetHunter      --&amp;gt;kali 系统的控制软件&lt;br /&gt;
+ NetHunter 终端  --&amp;gt; 命令行执行软件&lt;br /&gt;
+ Nethunter vnc  --&amp;gt;vnc 链接软件&lt;br /&gt;
+ cSploit        --&amp;gt; 移动端便捷的一键渗透工具&lt;br /&gt;
+ Hacker&#39;s keyboard --&amp;gt; 键盘，并不好用&lt;br /&gt;
+还有一些我不知道用途&lt;/p&gt;
+&lt;p&gt;首先进入 nethunter 终端 弹出对话框&lt;br /&gt;
+可以选择命令的执行端，果断选 KALI&lt;/p&gt;
+&lt;p&gt;apt update 发现？？不行，需要换源&lt;br /&gt;
+去安装目录下更改 etc/apt/sources.list&lt;br /&gt;
+ 把内容全部换掉&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;deb http://mirrors.ustc.edu.cn/kali kali-rolling main non-free contrib
+deb-src http://mirrors.ustc.edu.cn/kali kali-rolling main non-free contrib
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;然后运行&lt;br /&gt;
+ apt update&lt;br /&gt;
+ 如果失败请去百度搜索有关数字签名教程&lt;/p&gt;
+&lt;p&gt;接下来是启动 vnc 图形页面&lt;br /&gt;
+打开 Nethunter&lt;br /&gt;
+ 点击 VNC Manager&lt;br /&gt;
+ 点击 SETUP LOCAL SERVER&lt;br /&gt;
+ 设置密码&lt;br /&gt;
+然后输入以下启动指令&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;export USER=root
+export HOME=/root
+
+vncserver -kill :1
+rm -rf /tmp/.X1-lock
+rm -rf /tmp/.X11-unix/X1
+
+vncserver -name remote-desktop :1
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;打开 VNC 链接软件 (推荐去下载第三方的 vnc，nethunter vnc 不好用)&lt;br /&gt;
+ 地址: 127.0.0.1:5901&lt;br /&gt;
+ 账号: root&lt;br /&gt;
+ 密码：你设置的密码&lt;/p&gt;
+&lt;p&gt;然后看到了熟悉的桌面&lt;br /&gt;
+&lt;img data-src=&#34;https://shp.qpic.cn/collector/1642981619/32a2cfd6-51e7-4fd4-ab14-e6df705e084a/0&#34; alt=&#34;kali桌面&#34; /&gt;&lt;/p&gt;
+</content>
+        <category term="Android" />
+        <category term="linux" />
+        <category term="kail" />
+        <category term="渗透" />
+        <updated>2021-07-18T02:24:58.000Z</updated>
+    </entry>
     <entry>
         <id>https://pangbai.work/IT/dialog/</id>
         <title>Android底部简约风格对话框</title>
