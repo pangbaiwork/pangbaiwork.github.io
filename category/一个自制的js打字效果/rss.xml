@@ -9,6 +9,9 @@
         <lastBuildDate>Sat, 13 Mar 2021 19:27:55 +0800</lastBuildDate>
         <category>ADB</category>
         <category>Android</category>
+        <category>linux</category>
+        <category>kail</category>
+        <category>渗透</category>
         <category>html前端</category>
         <category>Minecraft</category>
         <category>服务器</category>
@@ -18,9 +21,6 @@
         <category>icebox</category>
         <category>手机软件分享</category>
         <category>线程下载器</category>
-        <category>linux</category>
-        <category>kail</category>
-        <category>渗透</category>
         <item>
             <guid isPermalink="true">https://pangbai.work/html/jstxt/</guid>
             <title>利用JavaScript实现循环打字效果</title>

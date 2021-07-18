@@ -9,6 +9,9 @@
         <lastBuildDate>Fri, 01 Jan 2021 08:29:00 +0800</lastBuildDate>
         <category>ADB</category>
         <category>Android</category>
+        <category>linux</category>
+        <category>kail</category>
+        <category>渗透</category>
         <category>html前端</category>
         <category>Minecraft</category>
         <category>服务器</category>
@@ -18,9 +21,6 @@
         <category>icebox</category>
         <category>手机软件分享</category>
         <category>线程下载器</category>
-        <category>linux</category>
-        <category>kail</category>
-        <category>渗透</category>
         <item>
             <guid isPermalink="true">https://pangbai.work/share/RedBag/</guid>
             <title>抢红包</title>

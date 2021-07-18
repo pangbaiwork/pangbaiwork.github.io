@@ -6,6 +6,9 @@
     <updated>2021-07-18T02:24:58.000Z</updated>
     <category term="ADB" />
     <category term="Android" />
+    <category term="linux" />
+    <category term="kail" />
+    <category term="渗透" />
     <category term="html前端" />
     <category term="Minecraft" />
     <category term="服务器" />
@@ -15,9 +18,6 @@
     <category term="icebox" />
     <category term="手机软件分享" />
     <category term="线程下载器" />
-    <category term="linux" />
-    <category term="kail" />
-    <category term="渗透" />
     <entry>
         <id>https://pangbai.work/IT/kali/</id>
         <title>干货！安卓手机上kali</title>
@@ -53,7 +53,8 @@ arm 32 位旧版&lt;br /&gt;
  如果你仅仅想安装一个 linux 请选最后一个链接，包很小，但很多组件是旧的 (upgrade 直接几个 G 给你吃了，还耗了几个小时)&lt;/p&gt;
 &lt;h2 id=&#34;安装kali-nethunter&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安装kali-nethunter&#34;&gt;#&lt;/a&gt; 安装 kali nethunter&lt;/h2&gt;
 &lt;p&gt;手机关机，再按开机键和音量键，进入 TWRP&lt;br /&gt;
- 滑动允许修改系统&lt;br /&gt;
+&lt;img data-src=&#34;http://shp.qpic.cn/collector/1642981619/678ec442-bfd7-4ef7-bd6c-13beb8f638c7/0&#34; alt=&#34;TWRP图&#34; /&gt;&lt;br /&gt;
+滑动允许修改系统&lt;br /&gt;
 点击右上的清除按钮，&lt;br /&gt;
 滑动清除 (其实也许并不是特别需要)&lt;br /&gt;
  返回主页&lt;br /&gt;
@@ -64,8 +65,7 @@ arm 32 位旧版&lt;br /&gt;
  最后成功&lt;br /&gt;
 启动系统&lt;br /&gt;
 开机动画很炫酷，内心激动不已&lt;br /&gt;
-&lt;img data-src=&#34;http://shp.qpic.cn/collector/1642981619/0658a6e2-c2c2-4e93-a172-871a32f70959/0&#34; alt=&#34;TWRP图&#34; /&gt;&lt;br /&gt;
-&lt;img data-src=&#34;http://shp.qpic.cn/collector/1642981619/eb912516-d5a6-4b0c-9dbe-9d556d2aa2b6/0&#34; alt=&#34;nethunter开机图&#34; /&gt;&lt;br /&gt;
+&lt;img data-src=&#34;http://shp.qpic.cn/collector/1642981619/11490d8f-43e1-4150-aa9a-a79e20095a39/0&#34; alt=&#34;nethunter开机图&#34; /&gt;&lt;br /&gt;
 开机后与原来的手机没有差别，一样的锁屏，桌面，安卓软件&lt;br /&gt;
 唯一特殊的是多了几个特别的 APP&lt;/p&gt;
 &lt;h2 id=&#34;配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#配置&#34;&gt;#&lt;/a&gt; 配置&lt;/h2&gt;

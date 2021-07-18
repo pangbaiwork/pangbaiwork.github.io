@@ -9,6 +9,9 @@
         <lastBuildDate>Sat, 19 Jun 2021 13:39:19 +0800</lastBuildDate>
         <category>ADB</category>
         <category>Android</category>
+        <category>linux</category>
+        <category>kail</category>
+        <category>渗透</category>
         <category>html前端</category>
         <category>Minecraft</category>
         <category>服务器</category>
@@ -18,9 +21,6 @@
         <category>icebox</category>
         <category>手机软件分享</category>
         <category>线程下载器</category>
-        <category>linux</category>
-        <category>kail</category>
-        <category>渗透</category>
         <item>
             <guid isPermalink="true">https://pangbai.work/IT/dialog/</guid>
             <title>Android底部简约风格对话框</title>

@@ -9,6 +9,9 @@
         <lastBuildDate>Mon, 11 Jan 2021 23:20:00 +0800</lastBuildDate>
         <category>ADB</category>
         <category>Android</category>
+        <category>linux</category>
+        <category>kail</category>
+        <category>渗透</category>
         <category>html前端</category>
         <category>Minecraft</category>
         <category>服务器</category>
@@ -18,9 +21,6 @@
         <category>icebox</category>
         <category>手机软件分享</category>
         <category>线程下载器</category>
-        <category>linux</category>
-        <category>kail</category>
-        <category>渗透</category>
         <item>
             <guid isPermalink="true">https://pangbai.work/share/CatServer/</guid>
             <title>1.12.2 | CatServer 可自行添加mod|自配权限小型整合服务端</title>
