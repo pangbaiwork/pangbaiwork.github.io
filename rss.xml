@@ -36,11 +36,11 @@
  如果你了解过网络安全方面的知识，那你一定会听过 &lt;code&gt;Kali Linux &lt;/code&gt; 的名字&lt;/p&gt;
 &lt;p&gt;它被广泛使用于网络攻击，不过分的说，多年来，进攻安全系统一直以 Kali Linux 的系统主导市场。&lt;br /&gt;
 而 &lt;code&gt;Kali Linux NetHunter&lt;/code&gt;  则是一款适用于 Android 移动设备的 Kali Linux 渗透测试系统。(但从攻击工具的使用上，ANDRAX 似乎比已经过时的它更加好用)&lt;/p&gt;
-&lt;p&gt;我是一个高中生，没有什么很厉害等想法，也没有想过黑客之类的东西，只想用手机玩玩 linux，看着指令行，用着电脑的图形页面很惬意。手机已经 root 自然不用去搞 termux 了，我把目光转向 proot。于是安装了 &lt;code&gt;linuxdeploy&lt;/code&gt; ，它可以选择不同的 linux 发行版与架构，非常完美，但我不认为它足够稳定。使用目录安装基本只会失败，而使用镜像更加鸡肋。经常挂载失败无法启动镜像，不是实体文件夹，难已备份数据，vnc 启动易死，只要有些东西错误，只能前功尽弃，然后重新安装 linux，又等个一个小时把之前的重新做一遍。&lt;/p&gt;
+&lt;p&gt;我是一个高中生，没有什么很厉害等想法，也没有想过黑客之类的东西，只想用手机玩玩 linux，看着指令行，用着电脑的图形页面很惬意。手机已经 root 自然不用去搞 termux 了，我把目光转向 chroot。于是安装了 &lt;code&gt;linuxdeploy&lt;/code&gt; ，它可以选择不同的 linux 发行版与架构，非常完美，但我不认为它足够稳定。使用目录安装基本只会失败，而使用镜像更加鸡肋。经常挂载失败无法启动镜像，不是实体文件夹，难已备份数据，vnc 启动易死，只要有些东西错误，只能前功尽弃，然后重新安装 linux，又等个一个小时把之前的重新做一遍。&lt;/p&gt;
 &lt;p&gt;于是，我想到了直接在手机上刷入 linux 的想法，然后发现了 nethunter，起初以为我的手机不支持这东西 (名单里似乎只有一加和谷歌的亲儿子)，逛了几个博客发现，有个通刷包，只是不能使用外接监听网卡。很激动，花了很时间线，最后成功了。&lt;/p&gt;
 &lt;h1 id=&#34;在手机上刷入kali&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#在手机上刷入kali&#34;&gt;#&lt;/a&gt; 在手机上刷入 kali&lt;/h1&gt;
 &lt;p&gt;接下来进入主题，如何在安卓手机上刷人 Kali Linux NetHunter&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;注: 本篇文章，只用于技术交流，旨在方便proot运行linux，任何使用工具照成的后果与本人无关&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;注: 本篇文章，只用于技术交流，旨在方便chroot运行linux，任何使用工具照成的后果与本人无关&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;作者:  &lt;code&gt;PangBai&lt;/code&gt; &lt;br /&gt;
  &lt;code&gt;转载请注明来源&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;准备条件&lt;/p&gt;
